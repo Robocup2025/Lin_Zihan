@@ -1,0 +1,5 @@
+a=input("请输入正整数:")
+s=str(a)
+l=len(s)
+print("是%d位数"%(l))
+print(s[-1:-l-1:-1])
