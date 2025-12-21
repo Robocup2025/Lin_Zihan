@@ -1,0 +1,22 @@
+1.文件说明
+-train.py #训练代码
+-detect_video.py #检测代码
+-yolo11n.pt #官方预训练权重
+-best.pt #训练最佳权重
+-data.yaml #数据集配置文件
+-test_revolve.mp4 #测试的物体旋转摆放视频
+-test_positive.mp4 #测试的物体正放不同距离视频
+-test_comprehension.mp4 #测试的物体综合变化视频
+-output_revolve.mp4 #test_revolve检测结果
+-output_positive.mp4 #test_positive检测结果
+-output_comprehension.mp4 #test_comprehension检测结果
+-requirement_picture and coordinate.mp4 #画面和终端打印坐标视频效果(仅展示test_positive)
+
+2.可实现功能
+(1)能识别竖直矿泉水,农夫山泉和怡宝(类似绿色农夫山泉,一开始没买到绿的就用这个代替)
+(2)除此之外还可以识别可乐,7喜,洗发水,薯片,鸭梨
+(3)可识别不同牌子的矿泉水(农夫山泉和怡宝),不同牌子的薯片(红烤肉味和黄原味)
+(4)可识别不同角度的物品,0度～180度都可以,角度过大可能稍微不稳定
+(5)可识别不同距离的物品,距离过大可能稍微不稳定
+(6)运行detect_video.py代码可实现对视频里面物品的检测,并生成画面和在终端打印坐标
+

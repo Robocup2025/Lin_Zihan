@@ -1,0 +1,16 @@
+path: dataset
+
+train: images/train
+val: images/val
+
+nc: 8
+
+names:
+  - 7up_g
+  - chip_meat_r
+  - chip_ori_y
+  - cola_pepsi_bk
+  - fruit_pear_y
+  - shampoo_hs_w
+  - water_nf_r
+  - water_yb_g
